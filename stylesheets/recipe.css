@@ -1,0 +1,49 @@
+*{
+ box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    background: rgb(165, 153, 121);
+
+}
+ul{
+    background:grey;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    width: 30%;
+    margin: 0 auto 20px;
+}
+h1{
+    font: size 50px;
+    margin:0;
+    padding: 0;
+    ;
+}
+li, h4{
+    width:40%;
+    margin: 0 0px 0px 25%;
+}
+h3, p{
+    width:40%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+p{
+    background-color: teal;
+    border-radius: 20px;
+    font-size: 20px;
+}
+ol{
+    background-color: teal ;
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+ol>li, ol>h4{
+    margin-left: 28%;
+}
+
